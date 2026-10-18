@@ -1,0 +1,11 @@
+.DS_Store
+.secrets/
+.env
+.env.*
+__pycache__/
+.venv/
+*.safetensors
+*.mp4
+*.wav
+*.zip
+training/output/

@@ -1,0 +1,8 @@
+{
+  "step": 2000,
+  "bytes": 160701024,
+  "tensors": 516,
+  "sha256": "18b36db2cf084edffb210b65e4087412666a4404b81180956c8cfb524eccff9c",
+  "all_finite": true,
+  "total_parameters": 80314368
+}

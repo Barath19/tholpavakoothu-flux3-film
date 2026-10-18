@@ -1,0 +1,246 @@
+[
+  {
+    "id": 5,
+    "title": "Tholpavakoothu 04.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tholpavakoothu_04.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Tholpavakoothu_04.jpg/960px-Tholpavakoothu_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/7/79/Tholpavakoothu_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5527,
+    "height": 3297,
+    "author": "Vishnu90s",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "selection_number": 1,
+    "selection_note": "User-selected framing reference. Front-on close-up; visible movement blur.",
+    "local_file": "selected/01.jpg",
+    "downloaded_original": true,
+    "training_file": "01.jpg",
+    "caption": "Two figures face each other at the center with their hands raised between their heads. Their bodies lean inward and fill most of the scene. thlpvk style",
+    "geometry": [
+      0,
+      0.19,
+      1,
+      0.81
+    ],
+    "operation": "Rectangular screen crop; resize only; no recoloring or generated content",
+    "original_sha256": "13d4921d5f8951127155dd54e6d2f1854af56b6f440bbe6b750098b23fb2da2c",
+    "training_sha256": "bf70401aae0500f2643239beb2a0e03a8bf864471a66cb9d6a1d0e88cdfd10c7",
+    "original_size": [
+      5527,
+      3297
+    ],
+    "crop_pixels": 11302715,
+    "training_size": [
+      1712,
+      640
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Image of Tholpavakoothu.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Image_of_Tholpavakoothu.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Image_of_Tholpavakoothu.jpg/960px-Image_of_Tholpavakoothu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/0/05/Image_of_Tholpavakoothu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5887,
+    "height": 3892,
+    "author": "Mullookkaaran",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "selection_number": 6,
+    "selection_note": "Frontal single-character silhouette with clear perforations.",
+    "local_file": "selected/06.jpg",
+    "downloaded_original": true,
+    "training_file": "06.jpg",
+    "caption": "A single figure crouches with one knee bent and its face turned to the left. One arm reaches forward while the other extends behind the body. thlpvk style",
+    "geometry": [
+      0.15,
+      0.17,
+      0.94,
+      0.84
+    ],
+    "operation": "Rectangular screen crop; resize only; no recoloring or generated content",
+    "original_sha256": "db39904eb26bad1a7503c04a8a2dcc1b010f56fc94a4f287f43a473945b1b4b6",
+    "training_sha256": "fb0eb2a73f5b305539425dc2040fab1710018d921c8c5ed305635d4296e72f30",
+    "original_size": [
+      5887,
+      3892
+    ],
+    "crop_pixels": 12125157,
+    "training_size": [
+      1392,
+      784
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Tholpava koothu shadow puppet Ramayana show (11).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tholpava_koothu_shadow_puppet_Ramayana_show_(11).jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Tholpava_koothu_shadow_puppet_Ramayana_show_%2811%29.jpg/960px-Tholpava_koothu_shadow_puppet_Ramayana_show_%2811%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/9/99/Tholpava_koothu_shadow_puppet_Ramayana_show_%2811%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3000,
+    "height": 2000,
+    "author": "Suyash Dwivedi ",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "selection_number": 11,
+    "selection_note": "Near-frontal animal scene; slight camera roll.",
+    "local_file": "selected/11.jpg",
+    "downloaded_original": true,
+    "training_file": "11.jpg",
+    "caption": "A deer stands on the left facing a tiger approaching from the right. Part of a tree appears behind the tiger. thlpvk style",
+    "geometry": [
+      0,
+      0.11,
+      1,
+      0.75
+    ],
+    "operation": "Rectangular screen crop; resize only; no recoloring or generated content",
+    "original_sha256": "c5e200f555d4bbe5c00fffc528ee3a12b879f4e744b8d747ccf47c6fe6cdcac6",
+    "training_sha256": "0c02398e5693fda132f8ba05d65418d17d04e63669c3864f32a9128ea08dc36a",
+    "original_size": [
+      3000,
+      2000
+    ],
+    "crop_pixels": 3840000,
+    "training_size": [
+      1584,
+      672
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Tholpava koothu shadow puppet Ramayana show (14).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tholpava_koothu_shadow_puppet_Ramayana_show_(14).jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Tholpava_koothu_shadow_puppet_Ramayana_show_%2814%29.jpg/960px-Tholpava_koothu_shadow_puppet_Ramayana_show_%2814%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/3/32/Tholpava_koothu_shadow_puppet_Ramayana_show_%2814%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3000,
+    "height": 2000,
+    "author": "Suyash Dwivedi ",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "selection_number": 12,
+    "selection_note": "Near-frontal seated figure beside a tree.",
+    "local_file": "selected/12.jpg",
+    "downloaded_original": true,
+    "training_file": "12.jpg",
+    "caption": "A woman sits beneath a tree on the right side of the scene. She rests one hand near her face, with open space extending to her left. thlpvk style",
+    "geometry": [
+      0,
+      0,
+      0.96,
+      0.83
+    ],
+    "operation": "Rectangular screen crop; resize only; no recoloring or generated content",
+    "original_sha256": "206a20914e3899cef0749de51636732c386d1b723a2e40743b2f3afbaf5e18f6",
+    "training_sha256": "6139b91494da244563bc2dab2961840745cac710a768ed9bb7d61a047b2d7b73",
+    "original_size": [
+      3000,
+      2000
+    ],
+    "crop_pixels": 4780800,
+    "training_size": [
+      1376,
+      784
+    ]
+  },
+  {
+    "number": 9,
+    "title": "Shadow Puppet Show Ramayanam Rama Ravana Yudham MGU KTYM 30.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Shadow_Puppet_Show_Ramayanam_Rama_Ravana_Yudham_MGU_KTYM_30.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Shadow_Puppet_Show_Ramayanam_Rama_Ravana_Yudham_MGU_KTYM_30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Shadow_Puppet_Show_Ramayanam_Rama_Ravana_Yudham_MGU_KTYM_30.jpg/960px-Shadow_Puppet_Show_Ramayanam_Rama_Ravana_Yudham_MGU_KTYM_30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 5184,
+    "height": 3888,
+    "author": "Tonynirappathu",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "selection_number": 16,
+    "local_file": "selected/16.jpg",
+    "downloaded_original": true,
+    "selection_note": "Additional distinct performance scene; audience-side view with minor camera angle. Crop stage borders before training.",
+    "training_file": "16.jpg",
+    "caption": "A large bird with raised wings confronts a chariot on the left. A separate tree stands on the right side of the scene. thlpvk style",
+    "geometry": {
+      "quad": [
+        [
+          0,
+          0.315
+        ],
+        [
+          0,
+          0.62
+        ],
+        [
+          0.95,
+          0.61
+        ],
+        [
+          0.93,
+          0.24
+        ]
+      ]
+    },
+    "operation": "Screen-plane quadrilateral crop and geometric straightening; resize only; no recoloring or generated content",
+    "original_sha256": "46651d66d6d30de9638990462c105879e97e5dcbc905247c077edad1f8153460",
+    "training_sha256": "db76413ab3bb0feb585872faac22d5d0a17b13ade86e0d0add6082b836a2531a",
+    "original_size": [
+      5184,
+      3888
+    ],
+    "crop_pixels": 6408378,
+    "training_size": [
+      2000,
+      544
+    ]
+  },
+  {
+    "number": 23,
+    "title": "Tholpavakoothu, a folk art of Kerala 10 57 34 982000.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tholpavakoothu,_a_folk_art_of_Kerala_10_57_34_982000.jpeg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Tholpavakoothu%2C_a_folk_art_of_Kerala_10_57_34_982000.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Tholpavakoothu%2C_a_folk_art_of_Kerala_10_57_34_982000.jpeg/960px-Tholpavakoothu%2C_a_folk_art_of_Kerala_10_57_34_982000.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 4032,
+    "height": 2268,
+    "author": "Shagil Muzhappilangad",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "selection_number": 20,
+    "local_file": "selected/20.jpg",
+    "downloaded_original": true,
+    "selection_note": "Additional distinct performance scene; audience-side view with minor camera angle. Crop stage borders before training.",
+    "training_file": "20.jpg",
+    "caption": "A seated ruler beneath an umbrella occupies the center of a group. Standing attendants gather to the left while two figures face one another on the right. thlpvk style",
+    "geometry": {
+      "quad": [
+        [
+          0.01,
+          0.42
+        ],
+        [
+          0.01,
+          0.81
+        ],
+        [
+          0.95,
+          0.79
+        ],
+        [
+          0.95,
+          0.43
+        ]
+      ]
+    },
+    "operation": "Screen-plane quadrilateral crop and geometric straightening; resize only; no recoloring or generated content",
+    "original_sha256": "2507b3991ce8ade26cd5222f863f34f0fbe2a2c8008846e70eff2703e061c42e",
+    "training_sha256": "5b15ecc00f908e46eeb78272cc1e4f1d8cfe72aa606135375ece700271be8400",
+    "original_size": [
+      4032,
+      2268
+    ],
+    "crop_pixels": 3225290,
+    "training_size": [
+      2192,
+      496
+    ]
+  }
+]

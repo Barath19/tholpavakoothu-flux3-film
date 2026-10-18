@@ -1,0 +1,153 @@
+{
+  "title": "Titanic: Shadows on the Sea",
+  "adaptation": "Condensed fictional romance aboard the Titanic; original English captions and original soundtrack.",
+  "duration_seconds": 90,
+  "image_model": "black-forest-labs/flux-3-image-klein",
+  "image_revision": "337337621b8526e120f2275d250242f4a6bedd75",
+  "base_revision": "3f7fa5ee22ca1d5a5cc095ac7cc96e6a173b4c86",
+  "lora_checkpoint": 2000,
+  "lora_scale": 0.65,
+  "image_settings": {
+    "width": 1360,
+    "height": 768,
+    "steps": 16,
+    "guidance": 1.0
+  },
+  "video_settings": {
+    "model": "flux-3-video",
+    "mode": "i2v",
+    "resolution": "hd",
+    "duration": 15,
+    "aspect_ratio": "16:9",
+    "generate_audio": true,
+    "draft": false
+  },
+  "shots": [
+    {
+      "id": "01-departure",
+      "title": "Departure",
+      "start": 0,
+      "duration": 15,
+      "seed": 25201,
+      "image_id": "01-departure-v2",
+      "scene": "A simple complete side silhouette of the Titanic, bow pointing right. Exactly four plain rectangular funnels, two slender masts with minimal rigging, and one row of small square windows. Two tiny lovers stand on the forward deck. Two broad plain wave strips at the bottom. Empty amber cloth above the ship.",
+      "action": "0\u20135s: the leather waves slide slowly in opposite directions. 5\u201311s: the liner glides right, smoke curling as separate soft cutout shapes. 11\u201315s: two tiny human silhouettes on the forward deck turn toward each other. Fixed side-on camera.",
+      "sound": "Low waves, distant ship bell and a restrained reed theme over a warm drone.",
+      "narration": "Among a thousand journeys, two lives crossed.",
+      "narration_start": 2,
+      "narration_end": 13,
+      "image_prompt": "Edit this image into a wide view of the COMPLETE Titanic, with both the left stern and the pointed right bow inside the picture and a little empty cloth on both sides. The ship MUST have FOUR separate large upright rectangular smokestacks evenly spaced in a row: first funnel, second funnel, third funnel, fourth funnel. Add the missing fourth smokestack. Make the two lovers very tiny compared with the ship. The entire liner fills the lower two thirds horizontally. Keep the ship plain and simple, one row of square windows, two slender masts. Preserve the reference image as a photographed simple leather shadow-puppet performance: flat dark silhouettes, two plain wave strips, soft edges, amber cotton screen and the horizontal row of small white-gold lamp glows behind the cloth. thlpvk style.",
+      "references": [
+        "01-departure"
+      ],
+      "reference_prompt": "Edit this image into a wide view of the COMPLETE Titanic, with both the left stern and the pointed right bow inside the picture and a little empty cloth on both sides. The ship MUST have FOUR separate large upright rectangular smokestacks evenly spaced in a row: first funnel, second funnel, third funnel, fourth funnel. Add the missing fourth smokestack. Make the two lovers very tiny compared with the ship. The entire liner fills the lower two thirds horizontally. Keep the ship plain and simple, one row of square windows, two slender masts. Preserve the reference image as a photographed simple leather shadow-puppet performance: flat dark silhouettes, two plain wave strips, soft edges, amber cotton screen and the horizontal row of small white-gold lamp glows behind the cloth. thlpvk style.",
+      "video_prompt": "Animate the supplied photograph as a simple physical leather shadow-puppet performance, filmed straight on. Preserve the flat silhouettes, sparse details, slight soft focus and horizontal row of lamp glows behind the cloth. Lamps gently flicker in place; they are stage lights, not fire on the ship. No 3D depth, realistic water, extra ornament or camera movement. 0\u20135s: the leather waves slide slowly in opposite directions. 5\u201311s: the liner glides right, smoke curling as separate soft cutout shapes. 11\u201315s: two tiny human silhouettes on the forward deck turn toward each other. Fixed side-on camera. Sound: Original Kerala-inspired instrumental music. Low waves, distant ship bell and a restrained reed theme over a warm drone. No voices, dialogue, text or logos.",
+      "lora_scale": 0.65
+    },
+    {
+      "id": "02-at-the-bow",
+      "title": "At the bow",
+      "start": 15,
+      "duration": 15,
+      "seed": 25102,
+      "image_id": "02-at-the-bow",
+      "scene": "The same two lovers stand hand over hand at the pointed ship bow, facing right. The woman stands in front of the man at the plain two-bar railing. Match the reference composition, puppet shapes, clothing, scale and pose closely. Two broad plain wave strips beneath.",
+      "action": "0\u20135s: the woman\u2019s dress edge moves gently. 5\u201310s: their jointed hands meet over the railing and the man leans slightly closer. 10\u201315s: hold the quiet embrace while two flat wave strips glide slowly below. Keep the two bodies separate and preserve the exact clothing.",
+      "sound": "Soft sea breeze, gentle reed melody, sparse small cymbals and low percussion.",
+      "narration": "For a moment, the world was only wind and sea.",
+      "narration_start": 17,
+      "narration_end": 28,
+      "image_prompt": "A straight-on photograph of a simple live leather shadow-puppet performance. Preserve the approved reference\u2019s flat dark leather profiles, plain costumes with very few punched holes, slightly soft projected edges and slight movement blur. Use plain softly illuminated amber cotton cloth, with a clearly visible horizontal row of small white-gold oil-lamp glows shining from behind it. Lamp glows remain visible in empty cloth and are occluded by solid puppets. Use two broad flat wave strips. No real ocean, detailed surface textures, dense ornament or 3D figures. The same two lovers stand hand over hand at the pointed ship bow, facing right. The woman stands in front of the man at the plain two-bar railing. Match the reference composition, puppet shapes, clothing, scale and pose closely. Two broad plain wave strips beneath. The woman has swept-up dark hair and a simple muted burgundy long dress with a few holes near its hem; the man wears an ochre shirt, dark waistcoat and trousers. Both have simple dark profile faces, tiny pierced eyes, pin joints and subtle control rods.  thlpvk style",
+      "references": [
+        "02-bow-lamps"
+      ],
+      "reference_prompt": "Use the supplied approved photograph as the exact simple puppet style, character and lighting reference. The same two lovers stand hand over hand at the pointed ship bow, facing right. The woman stands in front of the man at the plain two-bar railing. Match the reference composition, puppet shapes, clothing, scale and pose closely. Two broad plain wave strips beneath. A straight-on photograph of a simple live leather shadow-puppet performance. Preserve the approved reference\u2019s flat dark leather profiles, plain costumes with very few punched holes, slightly soft projected edges and slight movement blur. Use plain softly illuminated amber cotton cloth, with a clearly visible horizontal row of small white-gold oil-lamp glows shining from behind it. Lamp glows remain visible in empty cloth and are occluded by solid puppets. Use two broad flat wave strips. No real ocean, detailed surface textures, dense ornament or 3D figures. The woman has swept-up dark hair and a simple muted burgundy long dress with a few holes near its hem; the man wears an ochre shirt, dark waistcoat and trousers. Both have simple dark profile faces, tiny pierced eyes, pin joints and subtle control rods.  thlpvk style",
+      "video_prompt": "Animate the supplied photograph as a simple physical leather shadow-puppet performance, filmed straight on. Preserve the flat silhouettes, sparse details, slight soft focus and horizontal row of lamp glows behind the cloth. Lamps gently flicker in place; they are stage lights, not fire on the ship. No 3D depth, realistic water, extra ornament or camera movement. 0\u20135s: the woman\u2019s dress edge moves gently. 5\u201310s: their jointed hands meet over the railing and the man leans slightly closer. 10\u201315s: hold the quiet embrace while two flat wave strips glide slowly below. Keep the two bodies separate and preserve the exact clothing. Sound: Original Kerala-inspired instrumental music. Soft sea breeze, gentle reed melody, sparse small cymbals and low percussion. No voices, dialogue, text or logos.",
+      "lora_scale": 0.65
+    },
+    {
+      "id": "03-the-iceberg",
+      "title": "The iceberg",
+      "start": 30,
+      "duration": 15,
+      "seed": 25203,
+      "image_id": "03-the-iceberg-v2",
+      "scene": "The same simple four-funnel liner is at left, its bow almost touching one large pale translucent leather iceberg at right. The iceberg is a plain irregular triangle with no fine texture. Two broad dark wave strips below. The amber cloth is dimmer to suggest night.",
+      "action": "0\u20136s: the liner moves slowly right toward the iceberg. 6\u201310s: the near side of the bow grazes the iceberg; one brief cloth-light flicker and a slight sideways jolt mark the collision. 10\u201315s: hold the ship against the ice, windows dimming unevenly. No explosion, no immediate sinking, no 3D water.",
+      "sound": "Slow rising drum tension, a low metallic scrape at contact, then a sudden hush.",
+      "narration": "Then the night split open.",
+      "narration_start": 32,
+      "narration_end": 43,
+      "image_prompt": "Transform this wide shot into the collision scene. Keep the same complete four-funnel ship on the LEFT HALF, bow pointing right, seen from a distance. Add one LARGE pale translucent triangular leather ICEBERG on the RIGHT HALF directly in front of the ship. The pointed bow nearly touches the left side of the iceberg. The iceberg is taller than the ship and is clearly visible. Show the whole miniature ship and whole iceberg together. No large people and no closeup of the railing. Dim amber cloth suggests night. Preserve the reference image as a photographed simple leather shadow-puppet performance: flat dark silhouettes, two plain wave strips, soft edges, amber cotton screen and the horizontal row of small white-gold lamp glows behind the cloth. thlpvk style.",
+      "references": [
+        "01-departure-v2"
+      ],
+      "reference_prompt": "Transform this wide shot into the collision scene. Keep the same complete four-funnel ship on the LEFT HALF, bow pointing right, seen from a distance. Add one LARGE pale translucent triangular leather ICEBERG on the RIGHT HALF directly in front of the ship. The pointed bow nearly touches the left side of the iceberg. The iceberg is taller than the ship and is clearly visible. Show the whole miniature ship and whole iceberg together. No large people and no closeup of the railing. Dim amber cloth suggests night. Preserve the reference image as a photographed simple leather shadow-puppet performance: flat dark silhouettes, two plain wave strips, soft edges, amber cotton screen and the horizontal row of small white-gold lamp glows behind the cloth. thlpvk style.",
+      "video_prompt": "Animate the supplied photograph as a simple physical leather shadow-puppet performance, filmed straight on. Preserve the flat silhouettes, sparse details, slight soft focus and horizontal row of lamp glows behind the cloth. Lamps gently flicker in place; they are stage lights, not fire on the ship. No 3D depth, realistic water, extra ornament or camera movement. 0\u20136s: the liner moves slowly right toward the iceberg. 6\u201310s: the near side of the bow grazes the iceberg; one brief cloth-light flicker and a slight sideways jolt mark the collision. 10\u201315s: hold the ship against the ice, windows dimming unevenly. No explosion, no immediate sinking, no 3D water. Sound: Original Kerala-inspired instrumental music. Slow rising drum tension, a low metallic scrape at contact, then a sudden hush. No voices, dialogue, text or logos.",
+      "lora_scale": 0.65
+    },
+    {
+      "id": "04-the-last-boats",
+      "title": "The last boats",
+      "start": 45,
+      "duration": 15,
+      "seed": 25104,
+      "image_id": "04-the-last-boats",
+      "scene": "Only a plain tilted ship deck and two-bar railing descend toward the right. The same lovers hold each other at centre-left. A small lifeboat holding three seated silhouettes hangs from two vertical strings at right above the waves. Plain flat silhouettes on dim amber cloth.",
+      "action": "0\u20136s: lower the lifeboat steadily on its two ropes while the flat deck tilts a few degrees. 6\u201311s: the lovers brace against the rail and clasp hands. 11\u201315s: the lifeboat meets the water and moves right; the couple remains on the ship. Keep all figures as articulated leather puppets.",
+      "sound": "Urgent dry drums, rope creaks, a ship bell, subdued straining metal and rising waves.",
+      "narration": "The boats descended. Their hands held fast.",
+      "narration_start": 47,
+      "narration_end": 58,
+      "image_prompt": "A straight-on photograph of a simple live leather shadow-puppet performance. Preserve the approved reference\u2019s flat dark leather profiles, plain costumes with very few punched holes, slightly soft projected edges and slight movement blur. Use plain softly illuminated amber cotton cloth, with a clearly visible horizontal row of small white-gold oil-lamp glows shining from behind it. Lamp glows remain visible in empty cloth and are occluded by solid puppets. Use two broad flat wave strips. No real ocean, detailed surface textures, dense ornament or 3D figures. Only a plain tilted ship deck and two-bar railing descend toward the right. The same lovers hold each other at centre-left. A small lifeboat holding three seated silhouettes hangs from two vertical strings at right above the waves. Plain flat silhouettes on dim amber cloth. The woman has swept-up dark hair and a simple muted burgundy long dress with a few holes near its hem; the man wears an ochre shirt, dark waistcoat and trousers. Both have simple dark profile faces, tiny pierced eyes, pin joints and subtle control rods.  thlpvk style",
+      "references": [
+        "02-bow-lamps"
+      ],
+      "reference_prompt": "Use the supplied approved photograph as the exact simple puppet style, character and lighting reference. Only a plain tilted ship deck and two-bar railing descend toward the right. The same lovers hold each other at centre-left. A small lifeboat holding three seated silhouettes hangs from two vertical strings at right above the waves. Plain flat silhouettes on dim amber cloth. A straight-on photograph of a simple live leather shadow-puppet performance. Preserve the approved reference\u2019s flat dark leather profiles, plain costumes with very few punched holes, slightly soft projected edges and slight movement blur. Use plain softly illuminated amber cotton cloth, with a clearly visible horizontal row of small white-gold oil-lamp glows shining from behind it. Lamp glows remain visible in empty cloth and are occluded by solid puppets. Use two broad flat wave strips. No real ocean, detailed surface textures, dense ornament or 3D figures. The woman has swept-up dark hair and a simple muted burgundy long dress with a few holes near its hem; the man wears an ochre shirt, dark waistcoat and trousers. Both have simple dark profile faces, tiny pierced eyes, pin joints and subtle control rods.  thlpvk style",
+      "video_prompt": "Animate the supplied photograph as a simple physical leather shadow-puppet performance, filmed straight on. Preserve the flat silhouettes, sparse details, slight soft focus and horizontal row of lamp glows behind the cloth. Lamps gently flicker in place; they are stage lights, not fire on the ship. No 3D depth, realistic water, extra ornament or camera movement. 0\u20136s: lower the lifeboat steadily on its two ropes while the flat deck tilts a few degrees. 6\u201311s: the lovers brace against the rail and clasp hands. 11\u201315s: the lifeboat meets the water and moves right; the couple remains on the ship. Keep all figures as articulated leather puppets. Sound: Original Kerala-inspired instrumental music. Urgent dry drums, rope creaks, a ship bell, subdued straining metal and rising waves. No voices, dialogue, text or logos.",
+      "lora_scale": 0.65
+    },
+    {
+      "id": "05-hold-on",
+      "title": "Hold on",
+      "start": 60,
+      "duration": 15,
+      "seed": 25105,
+      "image_id": "05-hold-on",
+      "scene": "The woman lies horizontally on top of a plain broad rectangular wreckage panel at right. The man is in the water at left with only his head and shoulders above two simple wave strips. Their hands meet over the small gap. No ship, deck, railing or iceberg. The same simple flat leather characters, quiet dim amber cloth.",
+      "action": "0\u20135s: the man steadies the floating panel while the woman grips his hand. 5\u201310s: waves slide gently in front of his shoulders. 10\u201315s: their hands slowly separate and his silhouette sinks discreetly behind the front wave strip; she reaches toward the empty space. Quiet and non-graphic.",
+      "sound": "Percussion falls silent. Small waves, breath-like wind and a restrained low reed phrase.",
+      "narration": "He lifted her above the water. She held on to his memory.",
+      "narration_start": 62,
+      "narration_end": 73,
+      "image_prompt": "A straight-on photograph of a simple live leather shadow-puppet performance. Preserve the approved reference\u2019s flat dark leather profiles, plain costumes with very few punched holes, slightly soft projected edges and slight movement blur. Use plain softly illuminated amber cotton cloth, with a clearly visible horizontal row of small white-gold oil-lamp glows shining from behind it. Lamp glows remain visible in empty cloth and are occluded by solid puppets. Use two broad flat wave strips. No real ocean, detailed surface textures, dense ornament or 3D figures. The woman lies horizontally on top of a plain broad rectangular wreckage panel at right. The man is in the water at left with only his head and shoulders above two simple wave strips. Their hands meet over the small gap. No ship, deck, railing or iceberg. The same simple flat leather characters, quiet dim amber cloth. The woman has swept-up dark hair and a simple muted burgundy long dress with a few holes near its hem; the man wears an ochre shirt, dark waistcoat and trousers. Both have simple dark profile faces, tiny pierced eyes, pin joints and subtle control rods.  thlpvk style",
+      "references": [
+        "02-bow-lamps"
+      ],
+      "reference_prompt": "Use the supplied approved photograph as the exact simple puppet style, character and lighting reference. The woman lies horizontally on top of a plain broad rectangular wreckage panel at right. The man is in the water at left with only his head and shoulders above two simple wave strips. Their hands meet over the small gap. No ship, deck, railing or iceberg. The same simple flat leather characters, quiet dim amber cloth. A straight-on photograph of a simple live leather shadow-puppet performance. Preserve the approved reference\u2019s flat dark leather profiles, plain costumes with very few punched holes, slightly soft projected edges and slight movement blur. Use plain softly illuminated amber cotton cloth, with a clearly visible horizontal row of small white-gold oil-lamp glows shining from behind it. Lamp glows remain visible in empty cloth and are occluded by solid puppets. Use two broad flat wave strips. No real ocean, detailed surface textures, dense ornament or 3D figures. The woman has swept-up dark hair and a simple muted burgundy long dress with a few holes near its hem; the man wears an ochre shirt, dark waistcoat and trousers. Both have simple dark profile faces, tiny pierced eyes, pin joints and subtle control rods.  thlpvk style",
+      "video_prompt": "Animate the supplied photograph as a simple physical leather shadow-puppet performance, filmed straight on. Preserve the flat silhouettes, sparse details, slight soft focus and horizontal row of lamp glows behind the cloth. Lamps gently flicker in place; they are stage lights, not fire on the ship. No 3D depth, realistic water, extra ornament or camera movement. 0\u20135s: the man steadies the floating panel while the woman grips his hand. 5\u201310s: waves slide gently in front of his shoulders. 10\u201315s: their hands slowly separate and his silhouette sinks discreetly behind the front wave strip; she reaches toward the empty space. Quiet and non-graphic. Sound: Original Kerala-inspired instrumental music. Percussion falls silent. Small waves, breath-like wind and a restrained low reed phrase. No voices, dialogue, text or logos.",
+      "lora_scale": 0.65
+    },
+    {
+      "id": "06-what-remains",
+      "title": "What remains",
+      "start": 75,
+      "duration": 15,
+      "seed": 25106,
+      "image_id": "06-what-remains",
+      "scene": "The woman is seated in a small plain rowing boat at right, wrapped in a dark shawl, head lowered with a hand near her chest. A crew member behind her at far right holds a single oar. The left half is empty pale amber cloth above one quiet wave strip. The young male lover and the liner are absent.",
+      "action": "0\u20136s: the rowing boat glides slowly left, the crew member\u2019s jointed arms making one slow rowing stroke. 6\u201311s: the woman lowers her gaze and closes her hands around the keepsake. 11\u201315s: hold the tableau with pale gold light and quiet water. Leave clear sky for an edited closing line.",
+      "sound": "A single soft gong, the opening reed melody returns more slowly, gentle oars and water. Natural decay into silence.",
+      "narration": "The sea kept the ship. She kept his memory.",
+      "narration_start": 77,
+      "narration_end": 88,
+      "image_prompt": "A straight-on photograph of a simple live leather shadow-puppet performance. Preserve the approved reference\u2019s flat dark leather profiles, plain costumes with very few punched holes, slightly soft projected edges and slight movement blur. Use plain softly illuminated amber cotton cloth, with a clearly visible horizontal row of small white-gold oil-lamp glows shining from behind it. Lamp glows remain visible in empty cloth and are occluded by solid puppets. Use two broad flat wave strips. No real ocean, detailed surface textures, dense ornament or 3D figures. The woman is seated in a small plain rowing boat at right, wrapped in a dark shawl, head lowered with a hand near her chest. A crew member behind her at far right holds a single oar. The left half is empty pale amber cloth above one quiet wave strip. The young male lover and the liner are absent. The same woman has swept-up dark hair, a muted burgundy long dress and a plain dark shawl. The crew member has a dark cap and plain dark clothes, and is distinct from the absent young lover. Simple dark profile faces, tiny pierced eyes and subtle control rods.  thlpvk style",
+      "references": [
+        "02-bow-lamps"
+      ],
+      "reference_prompt": "Use the supplied approved photograph as the exact simple puppet style, character and lighting reference. The woman is seated in a small plain rowing boat at right, wrapped in a dark shawl, head lowered with a hand near her chest. A crew member behind her at far right holds a single oar. The left half is empty pale amber cloth above one quiet wave strip. The young male lover and the liner are absent. A straight-on photograph of a simple live leather shadow-puppet performance. Preserve the approved reference\u2019s flat dark leather profiles, plain costumes with very few punched holes, slightly soft projected edges and slight movement blur. Use plain softly illuminated amber cotton cloth, with a clearly visible horizontal row of small white-gold oil-lamp glows shining from behind it. Lamp glows remain visible in empty cloth and are occluded by solid puppets. Use two broad flat wave strips. No real ocean, detailed surface textures, dense ornament or 3D figures. The same woman has swept-up dark hair, a muted burgundy long dress and a plain dark shawl. The crew member has a dark cap and plain dark clothes, and is distinct from the absent young lover. Simple dark profile faces, tiny pierced eyes and subtle control rods.  thlpvk style",
+      "video_prompt": "Animate the supplied photograph as a simple physical leather shadow-puppet performance, filmed straight on. Preserve the flat silhouettes, sparse details, slight soft focus and horizontal row of lamp glows behind the cloth. Lamps gently flicker in place; they are stage lights, not fire on the ship. No 3D depth, realistic water, extra ornament or camera movement. 0\u20136s: the rowing boat glides slowly left, the crew member\u2019s jointed arms making one slow rowing stroke. 6\u201311s: the woman lowers her gaze and closes her hands around the keepsake. 11\u201315s: hold the tableau with pale gold light and quiet water. Leave clear sky for an edited closing line. Sound: Original Kerala-inspired instrumental music. A single soft gong, the opening reed melody returns more slowly, gentle oars and water. Natural decay into silence. No voices, dialogue, text or logos.",
+      "lora_scale": 0.65
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+JATAYU: THE LAST FLIGHT
+An original AI-assisted cinematic adaptation for Barath's hackathon project.
+
+STORY
+Adapted from the Ramayana: Jatayu confronts Ravana, falls, and survives long
+enough to identify Sita's captor to Rama. The English captions and closing
+line are original writing, not quotations from scripture.
+https://www.valmiki.iitk.ac.in/sloka?field_kanda_tid=3&field_sarga_value=51&language=dv
+https://valmikiramayan.net/aranya/sarga68/aranyasans68.htm
+
+DIRECT PHOTOGRAPHIC REFERENCES
+1. Tonynirappathu — Shadow Puppet Show Ramayanam Rama Ravana Yudham MGU KTYM 30.jpg
+   License: Creative Commons Attribution 4.0 International (CC BY 4.0).
+   https://commons.wikimedia.org/wiki/File:Shadow_Puppet_Show_Ramayanam_Rama_Ravana_Yudham_MGU_KTYM_30.jpg
+   https://creativecommons.org/licenses/by/4.0/
+   Used as an image-generation reference for bird, chariot and screen designs;
+   composition, staging and poses were transformed and then animated.
+2. Vishnu90s — Tholpavakoothu 03.jpg
+   License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+   https://commons.wikimedia.org/wiki/File:Tholpavakoothu_03.jpg
+   https://creativecommons.org/licenses/by-sa/4.0/
+   Used as an image-generation reference for the royal puppet forms in the
+   final scene; their poses, staging and movement were transformed.
+3. Vishnu90s — Tholpavakoothu 04.jpg
+   License: CC BY-SA 4.0. Original framing/style selection and training image.
+   https://commons.wikimedia.org/wiki/File:Tholpavakoothu_04.jpg
+
+The complete set of 20 training photographs, authors and licenses is credited
+in TRAINING-IMAGE-CREDITS.txt supplied in the film archive. Reference authors
+and traditional performers do not endorse this generated film.
+
+VISUAL RESEARCH ONLY
+Adishakti Theatre Arts: https://www.youtube.com/watch?v=x_4i3kLWfDs
+People's Archive of Rural India: https://www.youtube.com/watch?v=nS_TeZU1xRs
+No footage, audio or performer voices from these videos are reused.
+
+ORIGINAL SOUNDTRACK
+Newly composed and synthesized for this film: percussion and reed score,
+ambient drone, bronze-gong-like tones, wingbeats and wood/leather impacts.
+Created using deterministic modal and noise synthesis; no third-party recorded
+music samples. FLUX 3 generated clip audio is mixed quietly underneath.
+Instrumentation research: Tholpavakoothu Puppet Centre, Koonathara, Kerala.
+https://tholpavakoothu.in/about-us/about-performance/
+This is a Kerala theatre-inspired score, not a traditional troupe recording.
+
+GENERATION AND EDIT
+FLUX 3 Image Klein Distilled + custom Tholpavakoothu style LoRA (step 2000).
+LoRA training on Nebius compute; motion and native audio through FLUX 3 Video.
+Editing, captions, original score and sound mix: Python, NumPy, Pillow, FFmpeg.

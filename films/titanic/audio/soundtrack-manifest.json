@@ -1,0 +1,84 @@
+{
+  "title": "Titanic: Shadows on the Sea \u2014 original theatre-inspired score",
+  "duration_seconds": 90,
+  "method": "New algorithmic composition and modal/noise synthesis; no third-party recorded samples. FLUX 3 native generated clip ambience is mixed separately.",
+  "inspiration": "Kerala Tholpavakoothu: ezhupara/maddalam-like cylindrical drums, ilathalam-like small cymbals, kuzhal-like reed and chengila-like gong. Synthesized timbres are an interpretation, not a traditional troupe recording.",
+  "source": "https://tholpavakoothu.in/about-us/about-performance/",
+  "seed": 25118,
+  "events": [
+    {
+      "time": 1.8,
+      "event": "Distant ship bell"
+    },
+    {
+      "time": 8.2,
+      "event": "Distant ship bell"
+    },
+    {
+      "time": 36.7,
+      "event": "Hull scrapes the iceberg"
+    },
+    {
+      "time": 39,
+      "event": "Collision accent, then percussion falls away"
+    },
+    {
+      "time": 46,
+      "event": "Distant ship bell"
+    },
+    {
+      "time": 48.4,
+      "event": "Distant ship bell"
+    },
+    {
+      "time": 56.1,
+      "event": "Soft water and oar movement"
+    },
+    {
+      "time": 71.6,
+      "event": "Soft water and oar movement"
+    },
+    {
+      "time": 76,
+      "event": "Soft gong and slower reprise for remembrance"
+    },
+    {
+      "time": 77.8,
+      "event": "Soft water and oar movement"
+    },
+    {
+      "time": 81.3,
+      "event": "Soft water and oar movement"
+    },
+    {
+      "time": 85,
+      "event": "Soft water and oar movement"
+    }
+  ],
+  "files": [
+    {
+      "file": "original-score.wav",
+      "duration_seconds": 90,
+      "sample_rate": 48000,
+      "channels": 2,
+      "peak_dbfs": -7.69,
+      "sha256": "6cd3a59846e7de88702a927fcf110a96e8e1ca3b01efddca7841fb617a371db4"
+    },
+    {
+      "file": "designed-effects.wav",
+      "duration_seconds": 90,
+      "sample_rate": 48000,
+      "channels": 2,
+      "peak_dbfs": -23.25,
+      "sha256": "adfa8563330ee6b4d56f1c9348adaff0a2f7d7334e785b23b1fa846d1471ba6a"
+    },
+    {
+      "file": "score-and-effects.wav",
+      "duration_seconds": 90,
+      "sample_rate": 48000,
+      "channels": 2,
+      "peak_dbfs": -7.69,
+      "sha256": "0991f9480aa7ca0ab0aa97bd5f296d3ca86132abfecc071541e3221012712252"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+Style: Kerala Tholpavakoothu leather shadow-puppet performance: dark cutouts, perforations and warm cloth backlighting.
+Data: 20 credited Wikimedia Commons performance photographs (17 CC BY-SA 4.0, 3 CC BY 4.0), cropped and resized; individual sources and changes in CREDITS.txt.
+Checkpoint: Step 2000, rank/alpha 32/32 LoRA trained on FLUX 3 Image Klein Base; final images generated on distilled Klein.

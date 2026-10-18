@@ -1,0 +1,185 @@
+{
+  "title": "Jatayu: The Last Flight",
+  "adaptation": "Condensed Ramayana episode; original English narration and cinematic staging.",
+  "duration_seconds": 90,
+  "image_model": "black-forest-labs/flux-3-image-klein",
+  "image_revision": "337337621b8526e120f2275d250242f4a6bedd75",
+  "base_revision": "3f7fa5ee22ca1d5a5cc095ac7cc96e6a173b4c86",
+  "lora_checkpoint": 2000,
+  "lora_scale": 0.75,
+  "image_settings": {
+    "width": 1360,
+    "height": 768,
+    "steps": 16,
+    "guidance": 1.0
+  },
+  "video_settings": {
+    "model": "flux-3-video",
+    "mode": "i2v",
+    "resolution": "hd",
+    "duration": 15,
+    "aspect_ratio": "16:9",
+    "generate_audio": true,
+    "draft": false
+  },
+  "shots": [
+    {
+      "id": "01-the-shadow",
+      "title": "The shadow crosses the forest",
+      "start": 0,
+      "duration": 15,
+      "seed": 24101,
+      "cast": [
+        "jatayu"
+      ],
+      "references": [
+        "cast-jatayu"
+      ],
+      "scene": "A stylized spreading tree occupies the left quarter of the screen. Jatayu rests on its low branch, wings folded close, head turned toward the open right half of the screen. Small pierced leaf clusters frame the upper left. Warm empty cloth extends across the right, where a soft indistinct shadow begins to enter. The vulture and the tree are complete leather cutouts.",
+      "action": "0\u20135s: the cloth glows gently and a few tree leaves tremble. 5\u201310s: a large soft chariot shadow passes across the empty right half of the cloth. Jatayu raises his head toward it. 10\u201315s: the bird slowly opens his jointed wings and prepares to leave the branch. Keep the bird on screen throughout.",
+      "sound": "A low continuous drone, soft wind and widely spaced low drum beats. No speech.",
+      "narration": "When Ravana carried Sita away, an old guardian heard her cry.",
+      "narration_start": 3,
+      "narration_end": 12,
+      "continuity": "Jatayu's wings are intact. Establish his maroon feather pattern and pale curved neck.",
+      "image_prompt": "A full-color documentary photograph of a Kerala Tholpavakoothu-inspired leather shadow-puppet performance, viewed straight on from the audience, with the camera perpendicular to the flat woven cotton screen. The figures are thin articulated leather cutouts pressed close to the cloth, with crisp dark silhouettes, tiny punched holes, ornamental perforations and muted translucent red panels. Amber oil-lamp light passes through the cream cloth and the perforations. A narrow black stage border runs along the bottom. Fine control rods extend downward from the jointed arms and wings. All characters and scenery share the same flat theatrical plane, with visible handmade edges and subtle uneven backlighting. A stylized spreading tree occupies the left quarter of the screen. Jatayu rests on its low branch, wings folded close, head turned toward the open right half of the screen. Small pierced leaf clusters frame the upper left. Warm empty cloth extends across the right, where a soft indistinct shadow begins to enter. The vulture and the tree are complete leather cutouts. Jatayu is one elderly vulture represented by a broad dark-brown leather bird puppet, a small pale curved neck, hooked beak, circular amber eye, and two enormous rounded wings made of three overlapping rows of pierced maroon feathers. A short fan-shaped tail and two hooked feet complete the silhouette. thlpvk style",
+      "video_prompt": "Preserve the supplied photograph's physical shadow-puppet look, original leather carving, soft projected edges and uneven row of lamp glows. Animate the supplied frame as a continuous traditional leather shadow-puppet performance, filmed straight on at the cloth screen. Preserve each puppet's exact design, face count, costume, perforations and colors. Keep every character flat against the screen, with jointed rod-driven movements, a fixed camera and gently flickering oil-lamp illumination. 0\u20135s: the cloth glows gently and a few tree leaves tremble. 5\u201310s: a large soft chariot shadow passes across the empty right half of the cloth. Jatayu raises his head toward it. 10\u201315s: the bird slowly opens his jointed wings and prepares to leave the branch. Keep the bird on screen throughout. Sound: A low continuous drone, soft wind and widely spaced low drum beats. No speech. The image contains only the puppet performance; add no written captions or logos.",
+      "reference_prompt": "Create a new straight-on photograph of a leather shadow-puppet performance. Use the bird from the first reference, preserving its hooked beak, pale perforated neck, dark body, amber circular eye and maroon feather cutouts. Place the bird small on a low branch of a broad stylized leather tree at frame-left, facing right, with its wings folded. Let the tree occupy the left quarter. Leave the entire right half as empty amber woven cloth, with only a faint indistinct shadow entering at the far-right edge. Keep the same handmade leather, fine rods, punched ornament, warm lamp glow and narrow black stage border. The full bird and tree fit inside the frame. thlpvk style",
+      "image_id": "01-photo-forest"
+    },
+    {
+      "id": "02-the-challenge",
+      "title": "One bird against ten crowns",
+      "start": 15,
+      "duration": 15,
+      "seed": 24102,
+      "cast": [
+        "jatayu",
+        "ravana",
+        "sita",
+        "chariot"
+      ],
+      "references": [
+        "cast-jatayu",
+        "cast-ravana-sita-v6"
+      ],
+      "scene": "Jatayu hovers in the left third, facing right with wings raised. Ravana and captive Sita occupy their aerial chariot in the right third, with Ravana facing left toward Jatayu and Sita reaching left toward the bird. A clear gap of illuminated cloth separates the bird from the chariot. The full ten-headed crown group, the full bird and both chariot wheels fit within the frame. Sparse tree tips run along the lower border.",
+      "action": "0\u20135s: the chariot glides a short distance left and stops. Sita raises an open hand toward Jatayu. 5\u201310s: Jatayu advances into the gap and spreads his two wings into a broad barrier. 10\u201315s: Ravana raises his bow while Jatayu holds position. Move the flat puppets by their rods; preserve the ten heads as one rigid cutout. One continuous camera view.",
+      "sound": "Low drums accelerate gently. A single metallic accent when the wings reach full span. No dialogue.",
+      "narration": "Jatayu stood in his path. Age had weakened his body, but not his resolve.",
+      "narration_start": 17,
+      "narration_end": 28,
+      "continuity": "Jatayu remains left, Ravana right, Sita behind Ravana on the chariot platform. Keep Sita's raised hand readable.",
+      "image_prompt": "A full-color documentary photograph of a Kerala Tholpavakoothu-inspired leather shadow-puppet performance, viewed straight on from the audience, with the camera perpendicular to the flat woven cotton screen. The figures are thin articulated leather cutouts pressed close to the cloth, with crisp dark silhouettes, tiny punched holes, ornamental perforations and muted translucent red panels. Amber oil-lamp light passes through the cream cloth and the perforations. A narrow black stage border runs along the bottom. Fine control rods extend downward from the jointed arms and wings. All characters and scenery share the same flat theatrical plane, with visible handmade edges and subtle uneven backlighting. Jatayu hovers in the left third, facing right with wings raised. Ravana and captive Sita occupy their aerial chariot in the right third, with Ravana facing left toward Jatayu and Sita reaching left toward the bird. A clear gap of illuminated cloth separates the bird from the chariot. The full ten-headed crown group, the full bird and both chariot wheels fit within the frame. Sparse tree tips run along the lower border. Jatayu is one elderly vulture represented by a broad dark-brown leather bird puppet, a small pale curved neck, hooked beak, circular amber eye, and two enormous rounded wings made of three overlapping rows of pierced maroon feathers. A short fan-shaped tail and two hooked feet complete the silhouette. Ravana is one imposing male royal leather puppet with a broad dark-red torso, black curled moustaches, a red-and-gold patterned dhoti, ornate shoulder pieces and exactly ten crowned heads arranged in two close horizontal rows of five. The ten heads belong to one body. The crowns have the same pointed gold silhouette. His articulated arms hold a curved bow or a crescent-shaped sword as specified in the scene. Sita is one adult woman represented by a slim leather puppet with a dark profile face, a long black braid, a crimson sari with an amber dotted border and small round gold earrings. She is visibly captive, reaching away from Ravana with one raised open palm. Ravana's aerial chariot is a single ornate red leather cutout with two pierced gold wheels, a low rectangular platform and a curved canopy supported by two thin poles. It is carried across the empty upper screen as a theatrical flying vehicle. thlpvk style",
+      "video_prompt": "Preserve the supplied photograph's physical shadow-puppet look, original leather carving, soft projected edges and uneven row of lamp glows. Animate the supplied frame as a continuous traditional leather shadow-puppet performance, filmed straight on at the cloth screen. Preserve each puppet's exact design, face count, costume, perforations and colors. Keep every character flat against the screen, with jointed rod-driven movements, a fixed camera and gently flickering oil-lamp illumination. 0\u20135s: the chariot glides a short distance left and stops. Sita raises an open hand toward Jatayu. 5\u201310s: Jatayu advances into the gap and spreads his two wings into a broad barrier. 10\u201315s: Ravana raises his bow while Jatayu holds position. Move the flat puppets by their rods; preserve the ten heads as one rigid cutout. One continuous camera view. Sound: Low drums accelerate gently. A single metallic accent when the wings reach full span. No dialogue. The image contains only the puppet performance; add no written captions or logos.",
+      "reference_prompt": "Create a new wide, straight-on photograph of a leather shadow-puppet performance using both references. Copy Jatayu's bird design from the first image into the left third, facing right with both wings raised. Copy Ravana, Sita and the chariot from the second image into the right half. Keep Ravana's complete ten-head arrangement, curled moustache, red torso, crowns and gold perforations exactly as in that reference. Extend his bow arm left toward the bird. Move Sita inside the chariot platform, behind Ravana at frame-right, keeping her red sari, braid and open raised hand; she reaches left toward Jatayu. A wide gap of empty cloth separates the bird and chariot. Keep every wingtip, crown and wheel inside the frame. Match both references' amber backlight, woven cloth and flat cut-leather construction. thlpvk style",
+      "image_id": "style-check-photo-110"
+    },
+    {
+      "id": "03-the-struggle",
+      "title": "The chariot breaks",
+      "start": 30,
+      "duration": 15,
+      "seed": 24103,
+      "cast": [
+        "jatayu",
+        "ravana",
+        "sita",
+        "chariot"
+      ],
+      "references": [
+        "cast-jatayu",
+        "cast-ravana-sita-v6"
+      ],
+      "scene": "A closer audience-side view frames the same confrontation. Jatayu fills the left half with one wing raised and his hooked feet extended toward Ravana's curved bow. Ravana stands in the right half in the aerial chariot, with captive Sita visible behind his body at far right. The chariot canopy is tilted slightly and one wheel hangs below the platform. All figures are complete flat leather silhouettes against amber cloth.",
+      "action": "0\u20135s: Jatayu sweeps forward and catches the bow with his feet. 5\u20139s: the bow separates into two clean puppet pieces and falls toward the bottom edge. 9\u201315s: a second wing sweep knocks the canopy and one wheel free; the chariot cutout breaks into separate pieces that fall below the stage border. Sita and Ravana remain visible at the right while the vehicle disappears. Keep the staging readable with two deliberate impacts.",
+      "sound": "Fast hand-played drum pattern, two wooden cracks, and falling wooden clatters. No speech.",
+      "narration": "He broke the king's bow. He shattered the chariot.",
+      "narration_start": 32,
+      "narration_end": 41,
+      "continuity": "The chariot is destroyed at the end of this scene and never returns. Jatayu retains both wings through this scene.",
+      "image_prompt": "A full-color documentary photograph of a Kerala Tholpavakoothu-inspired leather shadow-puppet performance, viewed straight on from the audience, with the camera perpendicular to the flat woven cotton screen. The figures are thin articulated leather cutouts pressed close to the cloth, with crisp dark silhouettes, tiny punched holes, ornamental perforations and muted translucent red panels. Amber oil-lamp light passes through the cream cloth and the perforations. A narrow black stage border runs along the bottom. Fine control rods extend downward from the jointed arms and wings. All characters and scenery share the same flat theatrical plane, with visible handmade edges and subtle uneven backlighting. A closer audience-side view frames the same confrontation. Jatayu fills the left half with one wing raised and his hooked feet extended toward Ravana's curved bow. Ravana stands in the right half in the aerial chariot, with captive Sita visible behind his body at far right. The chariot canopy is tilted slightly and one wheel hangs below the platform. All figures are complete flat leather silhouettes against amber cloth. Jatayu is one elderly vulture represented by a broad dark-brown leather bird puppet, a small pale curved neck, hooked beak, circular amber eye, and two enormous rounded wings made of three overlapping rows of pierced maroon feathers. A short fan-shaped tail and two hooked feet complete the silhouette. Ravana is one imposing male royal leather puppet with a broad dark-red torso, black curled moustaches, a red-and-gold patterned dhoti, ornate shoulder pieces and exactly ten crowned heads arranged in two close horizontal rows of five. The ten heads belong to one body. The crowns have the same pointed gold silhouette. His articulated arms hold a curved bow or a crescent-shaped sword as specified in the scene. Sita is one adult woman represented by a slim leather puppet with a dark profile face, a long black braid, a crimson sari with an amber dotted border and small round gold earrings. She is visibly captive, reaching away from Ravana with one raised open palm. Ravana's aerial chariot is a single ornate red leather cutout with two pierced gold wheels, a low rectangular platform and a curved canopy supported by two thin poles. It is carried across the empty upper screen as a theatrical flying vehicle. thlpvk style",
+      "video_prompt": "Preserve the supplied photograph's physical shadow-puppet look, original leather carving, soft projected edges and uneven row of lamp glows. Animate the supplied frame as a continuous traditional leather shadow-puppet performance, filmed straight on at the cloth screen. Preserve each puppet's exact design, face count, costume, perforations and colors. Keep every character flat against the screen, with jointed rod-driven movements, a fixed camera and gently flickering oil-lamp illumination. 0\u20135s: Jatayu sweeps forward and catches the bow with his feet. 5\u20139s: the bow separates into two clean puppet pieces and falls toward the bottom edge. 9\u201315s: a second wing sweep knocks the canopy and one wheel free; the chariot cutout breaks into separate pieces that fall below the stage border. Sita and Ravana remain visible at the right while the vehicle disappears. Keep the staging readable with two deliberate impacts. Sound: Fast hand-played drum pattern, two wooden cracks, and falling wooden clatters. No speech. The image contains only the puppet performance; add no written captions or logos.",
+      "reference_prompt": "Create a closer straight-on photograph of the same leather shadow-puppet battle. Use Jatayu's dark bird, hooked beak, pale neck and maroon perforated feathers from the first reference. He fills the left half, facing right, one wing raised and his hooked feet extended toward the centre. Use Ravana, Sita and their chariot from the second reference in the right half, preserving the exact ten heads, crowns, moustache and clothing. Ravana's bow extends left into the central gap directly toward Jatayu's feet. Sita stands inside the vehicle behind Ravana at far right and reaches away from him toward the bird. Tilt the canopy slightly; show both chariot wheels and a complete but strained platform. Keep all subjects as articulated leather cutouts against the same amber woven screen. thlpvk style",
+      "image_id": "03-photo-struggle"
+    },
+    {
+      "id": "04-the-fall",
+      "title": "The price of resistance",
+      "start": 45,
+      "duration": 15,
+      "seed": 24104,
+      "cast": [
+        "jatayu",
+        "ravana",
+        "sita"
+      ],
+      "references": [
+        "cast-jatayu",
+        "cast-ravana-sita-v6"
+      ],
+      "scene": "Jatayu faces right from the centre-left of the screen, his two wings lowered from exhaustion. Ravana stands at centre-right on the ground, his ten heads rigidly aligned and his right arm lifting a crescent-shaped sword. Sita stands at the far right behind Ravana, reaching left toward Jatayu. Two small broken chariot fragments lie along the lower border; the rest of the cloth is empty deep amber.",
+      "action": "0\u20136s: Jatayu makes one final slow wing sweep toward Ravana. 6\u20139s: Ravana's sword arm makes one decisive downward arc; a wing-shaped leather piece detaches and drops. Depict the event solely through separate leather silhouettes and a brief flicker of the lamp. 9\u201315s: Jatayu's body sinks below the lower edge, followed by one feather. Keep the fall symbolic, with clean cloth and leather surfaces.",
+      "sound": "Original instrumental music inspired by Kerala Tholpavakoothu theatre: a brief, urgent ensemble of dry cylindrical ezhupara drum strokes, deeper maddalam tones and small ilathalam cymbals. A sharp drum-and-cymbal accent exactly on the sword stroke, then the percussion stops. Soft heavy wingbeats, a swift blade whoosh and a quiet falling leather flutter. A low resonant drone remains. No voices or speech, no orchestral strings, no electronic dance beat.",
+      "narration": "But the struggle exhausted him. Ravana struck, and Jatayu fell.",
+      "narration_start": 46,
+      "narration_end": 55,
+      "continuity": "Jatayu's fallen body must not regain full wings in later scenes. No chariot, no additional combatants.",
+      "image_prompt": "A full-color documentary photograph of a Kerala Tholpavakoothu-inspired leather shadow-puppet performance, viewed straight on from the audience, with the camera perpendicular to the flat woven cotton screen. The figures are thin articulated leather cutouts pressed close to the cloth, with crisp dark silhouettes, tiny punched holes, ornamental perforations and muted translucent red panels. Amber oil-lamp light passes through the cream cloth and the perforations. A narrow black stage border runs along the bottom. Fine control rods extend downward from the jointed arms and wings. All characters and scenery share the same flat theatrical plane, with visible handmade edges and subtle uneven backlighting. Jatayu faces right from the centre-left of the screen, his two wings lowered from exhaustion. Ravana stands at centre-right on the ground, his ten heads rigidly aligned and his right arm lifting a crescent-shaped sword. Sita stands at the far right behind Ravana, reaching left toward Jatayu. Two small broken chariot fragments lie along the lower border; the rest of the cloth is empty deep amber. Jatayu is one elderly vulture represented by a broad dark-brown leather bird puppet, a small pale curved neck, hooked beak, circular amber eye, and two enormous rounded wings made of three overlapping rows of pierced maroon feathers. A short fan-shaped tail and two hooked feet complete the silhouette. Ravana is one imposing male royal leather puppet with a broad dark-red torso, black curled moustaches, a red-and-gold patterned dhoti, ornate shoulder pieces and exactly ten crowned heads arranged in two close horizontal rows of five. The ten heads belong to one body. The crowns have the same pointed gold silhouette. His articulated arms hold a curved bow or a crescent-shaped sword as specified in the scene. Sita is one adult woman represented by a slim leather puppet with a dark profile face, a long black braid, a crimson sari with an amber dotted border and small round gold earrings. She is visibly captive, reaching away from Ravana with one raised open palm. thlpvk style",
+      "video_prompt": "Preserve the supplied photograph's physical shadow-puppet look, original leather carving, soft projected edges and uneven row of lamp glows. Animate the supplied frame as a continuous traditional leather shadow-puppet performance, filmed straight on at the cloth screen. Preserve each puppet's exact design, face count, costume, perforations and colors. Keep every character flat against the screen, with jointed rod-driven movements, a fixed camera and gently flickering oil-lamp illumination. 0\u20136s: Jatayu makes one final slow wing sweep toward Ravana. 6\u20139s: Ravana's sword arm makes one decisive downward arc; a wing-shaped leather piece detaches and drops. Depict the event solely through separate leather silhouettes and a brief flicker of the lamp. 9\u201315s: Jatayu's body sinks below the lower edge, followed by one feather. Keep the fall symbolic, with clean cloth and leather surfaces. Sound: Original instrumental music inspired by Kerala Tholpavakoothu theatre: a brief, urgent ensemble of dry cylindrical ezhupara drum strokes, deeper maddalam tones and small ilathalam cymbals. A sharp drum-and-cymbal accent exactly on the sword stroke, then the percussion stops. Soft heavy wingbeats, a swift blade whoosh and a quiet falling leather flutter. A low resonant drone remains. No voices or speech, no orchestral strings, no electronic dance beat. The image contains only the puppet performance; add no written captions or logos.",
+      "reference_prompt": "Create a new straight-on photograph of a leather shadow-puppet battle on the ground. Copy Jatayu's design from the first reference at centre-left, facing right with both maroon wings lowered from exhaustion. Copy Ravana's ten heads, moustache, red body and crown pattern from the second reference at centre-right. Remove the vehicle around him and give him a raised crescent-shaped sword in the arm nearest Jatayu; his bow is absent. Copy Sita's red sari and braided silhouette from the second reference, standing at far right behind Ravana, reaching left toward the bird. Two small broken chariot fragments rest at the bottom. Keep the upper background as empty amber cloth and the figures as flat perforated leather puppets with fine rods. thlpvk style",
+      "image_id": "04-photo-fall-v4"
+    },
+    {
+      "id": "05-the-witness",
+      "title": "The forest remembers",
+      "start": 60,
+      "duration": 15,
+      "seed": 24105,
+      "cast": [
+        "jatayu"
+      ],
+      "references": [
+        "cast-jatayu"
+      ],
+      "scene": "Beneath the same spreading tree at the left, Jatayu lies low on the ground as a still leather silhouette with his hooked beak raised slightly and a small remaining maroon feather panel tucked against his body. A detached perforated wing lies separately along the lower right. The upper right is empty amber cloth. One small maroon feather hangs in the middle of the open screen. The scene is quiet and clean, rendered entirely as cut leather silhouettes.",
+      "action": "0\u20136s: a small indistinct departing shadow passes off the far-right edge, leaving Jatayu alone. 6\u201311s: one feather drifts down in a gentle arc and settles beside the bird. 11\u201315s: the warm amber backlight gradually softens to pale gold to mark time passing. Jatayu's head makes one faint movement. Hold the camera completely still.",
+      "sound": "A quiet original Kerala folk-theatre-inspired instrumental passage, sparse low sustained reed and drone tones, very soft wind through leaves, a gentle feather flutter. Deliberate silence between musical phrases. No percussion here, no voices, no speech or singing.",
+      "narration": "Ravana escaped with Sita. Jatayu held on long enough to bear witness.",
+      "narration_start": 61,
+      "narration_end": 72,
+      "continuity": "Ravana and Sita have departed. The broken chariot stays destroyed; the image centres on Jatayu, the tree and the feather.",
+      "image_prompt": "A full-color documentary photograph of a Kerala Tholpavakoothu-inspired leather shadow-puppet performance, viewed straight on from the audience, with the camera perpendicular to the flat woven cotton screen. The figures are thin articulated leather cutouts pressed close to the cloth, with crisp dark silhouettes, tiny punched holes, ornamental perforations and muted translucent red panels. Amber oil-lamp light passes through the cream cloth and the perforations. A narrow black stage border runs along the bottom. Fine control rods extend downward from the jointed arms and wings. All characters and scenery share the same flat theatrical plane, with visible handmade edges and subtle uneven backlighting. Beneath the same spreading tree at the left, Jatayu lies low on the ground as a still leather silhouette with his hooked beak raised slightly and a small remaining maroon feather panel tucked against his body. A detached perforated wing lies separately along the lower right. The upper right is empty amber cloth. One small maroon feather hangs in the middle of the open screen. The scene is quiet and clean, rendered entirely as cut leather silhouettes. Jatayu retains his dark-brown body, pale curved vulture neck, hooked beak, amber eye and maroon feather pattern from the reference; he is now lying wounded with his broad wings absent. thlpvk style",
+      "video_prompt": "Preserve the supplied photograph's physical shadow-puppet look, original leather carving, soft projected edges and uneven row of lamp glows. Animate the supplied frame as a continuous traditional leather shadow-puppet performance, filmed straight on at the cloth screen. Preserve each puppet's exact design, face count, costume, perforations and colors. Keep every character flat against the screen, with jointed rod-driven movements, a fixed camera and gently flickering oil-lamp illumination. 0\u20136s: a small indistinct departing shadow passes off the far-right edge, leaving Jatayu alone. 6\u201311s: one feather drifts down in a gentle arc and settles beside the bird. 11\u201315s: the warm amber backlight gradually softens to pale gold to mark time passing. Jatayu's head makes one faint movement. Hold the camera completely still. Sound: A quiet original Kerala folk-theatre-inspired instrumental passage, sparse low sustained reed and drone tones, very soft wind through leaves, a gentle feather flutter. Deliberate silence between musical phrases. No percussion here, no voices, no speech or singing. The image contains only the puppet performance; add no written captions or logos.",
+      "reference_prompt": "Create a new quiet straight-on photograph of a leather shadow-puppet performance. Use only the dark bird body, hooked beak, pale neck, circular amber eye and maroon feather pattern from the reference. Lay Jatayu's short rounded body horizontally on the ground at lower left beneath a spreading stylized leather tree. His body ends at the shoulders, with the broad wings detached; his head lifts faintly. Place one detached perforated maroon wing separately on the ground at lower right, and a single small feather in the empty centre of the screen. The upper right remains empty warm cloth. Keep the materials and ornament exactly consistent with the reference: cut leather, delicate punched holes, amber lamp light, woven cream cloth, black stage border and fine control rods. thlpvk style",
+      "image_id": "05-photo-witness-v2"
+    },
+    {
+      "id": "06-the-last-flight",
+      "title": "Rama bows",
+      "start": 75,
+      "duration": 15,
+      "seed": 24106,
+      "cast": [
+        "jatayu",
+        "rama",
+        "lakshmana"
+      ],
+      "references": [
+        "cast-jatayu",
+        "cast-rama-lakshmana"
+      ],
+      "scene": "Jatayu lies beneath the tree at lower left, his pale curved neck and hooked beak raised faintly, his broad wings absent and a small maroon feather panel tucked against his body. Rama kneels beside him at centre, bow laid flat on the ground, one open hand extended toward the bird's head. Lakshmana stands quietly at the right with his own bow lowered. A single detached feather rests in the space between Rama and Jatayu. Pale golden light passes through the cream screen.",
+      "action": "0\u20135s: Rama leans closer to the old bird, his open hand gently meeting the bird's head; Lakshmana remains still. 5\u20139s: Jatayu raises his head once toward Rama and then slowly lowers it into stillness. 9\u201312s: Rama bows his head and brings his palms together. 12\u201315s: hold this tableau with a soft, steady lamp glow, leaving clear cloth in the upper centre for a title added in editing.",
+      "sound": "A tender original Kerala folk-theatre-inspired instrumental ending: restrained breathy kuzhal-like reed notes over a warm low drone, with one soft chengila-like bronze gong as Rama bows. Natural wind ambience and faint leather puppet movement. Let the last note decay into silence. No voices, speech or singing.",
+      "narration": "He named Sita's captor. Rama bowed beside him. His wings fell. His courage did not.",
+      "narration_start": 76,
+      "narration_end": 88,
+      "continuity": "Rama and Lakshmana have single heads and distinct saffron/red dhotis. Jatayu stays wingless and becomes still; no resurrection or new flight.",
+      "image_prompt": "A full-color documentary photograph of a Kerala Tholpavakoothu-inspired leather shadow-puppet performance, viewed straight on from the audience, with the camera perpendicular to the flat woven cotton screen. The figures are thin articulated leather cutouts pressed close to the cloth, with crisp dark silhouettes, tiny punched holes, ornamental perforations and muted translucent red panels. Amber oil-lamp light passes through the cream cloth and the perforations. A narrow black stage border runs along the bottom. Fine control rods extend downward from the jointed arms and wings. All characters and scenery share the same flat theatrical plane, with visible handmade edges and subtle uneven backlighting. Jatayu lies beneath the tree at lower left, his pale curved neck and hooked beak raised faintly, his broad wings absent and a small maroon feather panel tucked against his body. Rama kneels beside him at centre, bow laid flat on the ground, one open hand extended toward the bird's head. Lakshmana stands quietly at the right with his own bow lowered. A single detached feather rests in the space between Rama and Jatayu. Pale golden light passes through the cream screen. Jatayu retains his dark-brown body, pale curved vulture neck, hooked beak, amber eye and maroon feather pattern from the reference; he is now lying wounded with his broad wings absent. Rama is an adult male leather puppet with a slender dark silhouette, a small high hair knot, a narrow saffron dhoti with an amber border, a diagonal quiver strap and a long curved bow. He has one head and two arms. Lakshmana is a second adult male leather puppet, slightly shorter than Rama, with a small high hair knot, a muted red dhoti, a diagonal quiver strap and a curved bow held lowered. He has one head and two arms. thlpvk style",
+      "video_prompt": "Preserve the supplied photograph's physical shadow-puppet look, original leather carving, soft projected edges and uneven row of lamp glows. Animate the supplied frame as a continuous traditional leather shadow-puppet performance, filmed straight on at the cloth screen. Preserve each puppet's exact design, face count, costume, perforations and colors. Keep every character flat against the screen, with jointed rod-driven movements, a fixed camera and gently flickering oil-lamp illumination. 0\u20135s: Rama leans closer to the old bird, his open hand gently meeting the bird's head; Lakshmana remains still. 5\u20139s: Jatayu raises his head once toward Rama and then slowly lowers it into stillness. 9\u201312s: Rama bows his head and brings his palms together. 12\u201315s: hold this tableau with a soft, steady lamp glow, leaving clear cloth in the upper centre for a title added in editing. Sound: A tender original Kerala folk-theatre-inspired instrumental ending: restrained breathy kuzhal-like reed notes over a warm low drone, with one soft chengila-like bronze gong as Rama bows. Natural wind ambience and faint leather puppet movement. Let the last note decay into silence. No voices, speech or singing. The image contains only the puppet performance; add no written captions or logos.",
+      "reference_prompt": "Create a new straight-on photograph of a quiet leather shadow-puppet tableau using both references. From the first reference retain Jatayu's dark body, hooked beak, pale neck, amber eye and maroon feather pattern. His short wingless body lies horizontally at lower left beneath a stylized tree, the head raised faintly. From the second reference take the taller saffron-clad Rama and shorter red-clad Lakshmana with their exact single heads, hair knots, necklaces and clothing. Rama kneels beside Jatayu at centre, facing left, one open hand reaching toward the bird's head and his bow laid flat on the ground. Lakshmana stands at the right with his bow lowered. A detached feather rests between Rama and the bird. Leave open cloth above the figures. Match the references' pierced leather, rods and woven screen, illuminated with soft pale-gold lamp light. thlpvk style",
+      "image_id": "06-photo-farewell-v2"
+    }
+  ]
+}

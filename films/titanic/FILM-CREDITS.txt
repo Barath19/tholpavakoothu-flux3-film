@@ -1,0 +1,140 @@
+TITANIC: SHADOWS ON THE SEA
+A 90-second fictional romance in a Kerala-inspired shadow-puppet style.
+
+Created for Barath's hackathon project.
+Visual direction: simple leather profiles, amber cotton screen, visible oil-lamp glow, soft projected edges.
+Final storyboard: FLUX 3 Image Klein (distilled) with the trained Tholpavakoothu LoRA, checkpoint 2000, strength 0.65.
+Design reference: approved AI-generated preview, informed by the credited performance photographs below. The preview is not represented as a LoRA output.
+Animation: FLUX 3 Video image-to-video, six 15-second clips.
+Music: newly composed algorithmic reed/drum/cymbal/gong-inspired score and original synthesized Foley. These are interpreted timbres, not recordings of a traditional troupe.
+Sound mix: original score and effects with native generated ambience.
+Captions: original English text; no spoken narration.
+No commercial Titanic film footage, screenplay excerpts or soundtrack recordings used.
+
+TRAINING PHOTOGRAPH CREDITS AND LICENCES
+THOLPAVAKOOTHU TRAINING IMAGE CREDITS
+
+20 photographs. Rights and challenge eligibility must be considered separately.
+17 photographs: CC BY-SA 4.0; 3 photographs: CC BY 4.0.
+All prepared files were cropped and resized; some screen planes were geometrically straightened.
+Original photographs remain unchanged in the references folder. No generated image content was added.
+
+01.jpg: Tholpavakoothu 04.jpg
+Author: Vishnu90s
+Source: https://commons.wikimedia.org/wiki/File:Tholpavakoothu_04.jpg
+License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+Changes: Rectangular screen crop; resize only; no recoloring or generated content
+
+02.jpg: Tholpavakoothu 01.jpg
+Author: Vishnu90s
+Source: https://commons.wikimedia.org/wiki/File:Tholpavakoothu_01.jpg
+License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+Changes: Rectangular screen crop; resize only; no recoloring or generated content
+
+03.jpg: Tholpavakoothu 02.jpg
+Author: Vishnu90s
+Source: https://commons.wikimedia.org/wiki/File:Tholpavakoothu_02.jpg
+License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+Changes: Rectangular screen crop; resize only; no recoloring or generated content
+
+04.jpg: Tholpavakoothu 03.jpg
+Author: Vishnu90s
+Source: https://commons.wikimedia.org/wiki/File:Tholpavakoothu_03.jpg
+License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+Changes: Rectangular screen crop; resize only; no recoloring or generated content
+
+05.jpg: Tholpavakoothu 05.jpg
+Author: Vishnu90s
+Source: https://commons.wikimedia.org/wiki/File:Tholpavakoothu_05.jpg
+License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+Changes: Rectangular screen crop; resize only; no recoloring or generated content
+
+06.jpg: Image of Tholpavakoothu.jpg
+Author: Mullookkaaran
+Source: https://commons.wikimedia.org/wiki/File:Image_of_Tholpavakoothu.jpg
+License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+Changes: Rectangular screen crop; resize only; no recoloring or generated content
+
+07.jpg: Tholpavakoothu Image.jpg
+Author: Mullookkaaran
+Source: https://commons.wikimedia.org/wiki/File:Tholpavakoothu_Image.jpg
+License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+Changes: Rectangular screen crop; resize only; no recoloring or generated content
+
+08.jpg: Tholpava koothu shadow puppet Ramayana show (4).jpg
+Author: Suyash Dwivedi 
+Source: https://commons.wikimedia.org/wiki/File:Tholpava_koothu_shadow_puppet_Ramayana_show_(4).jpg
+License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+Changes: Rectangular screen crop; resize only; no recoloring or generated content
+
+09.jpg: Tholpava koothu shadow puppet Ramayana show (8).jpg
+Author: Suyash Dwivedi 
+Source: https://commons.wikimedia.org/wiki/File:Tholpava_koothu_shadow_puppet_Ramayana_show_(8).jpg
+License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+Changes: Rectangular screen crop; resize only; no recoloring or generated content
+
+10.jpg: Tholpava koothu shadow puppet Ramayana show (9).jpg
+Author: Suyash Dwivedi 
+Source: https://commons.wikimedia.org/wiki/File:Tholpava_koothu_shadow_puppet_Ramayana_show_(9).jpg
+License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+Changes: Rectangular screen crop; resize only; no recoloring or generated content
+
+11.jpg: Tholpava koothu shadow puppet Ramayana show (11).jpg
+Author: Suyash Dwivedi 
+Source: https://commons.wikimedia.org/wiki/File:Tholpava_koothu_shadow_puppet_Ramayana_show_(11).jpg
+License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+Changes: Rectangular screen crop; resize only; no recoloring or generated content
+
+12.jpg: Tholpava koothu shadow puppet Ramayana show (14).jpg
+Author: Suyash Dwivedi 
+Source: https://commons.wikimedia.org/wiki/File:Tholpava_koothu_shadow_puppet_Ramayana_show_(14).jpg
+License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+Changes: Rectangular screen crop; resize only; no recoloring or generated content
+
+13.jpg: Tholpava koothu shadow puppet Ramayana show (16).jpg
+Author: Suyash Dwivedi 
+Source: https://commons.wikimedia.org/wiki/File:Tholpava_koothu_shadow_puppet_Ramayana_show_(16).jpg
+License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+Changes: Rectangular screen crop; resize only; no recoloring or generated content
+
+14.jpg: Tholpavakoothu, a folk art of Kerala 10 59 23 694000.jpeg
+Author: Shagil Muzhappilangad
+Source: https://commons.wikimedia.org/wiki/File:Tholpavakoothu,_a_folk_art_of_Kerala_10_59_23_694000.jpeg
+License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+Changes: Rectangular screen crop; resize only; no recoloring or generated content
+
+15.jpg: Tholpavakoothu, a folk art of Kerala 10 59 38 661000.jpeg
+Author: Shagil Muzhappilangad
+Source: https://commons.wikimedia.org/wiki/File:Tholpavakoothu,_a_folk_art_of_Kerala_10_59_38_661000.jpeg
+License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+Changes: Screen-plane quadrilateral crop and geometric straightening; resize only; no recoloring or generated content
+
+16.jpg: Shadow Puppet Show Ramayanam Rama Ravana Yudham MGU KTYM 30.jpg
+Author: Tonynirappathu
+Source: https://commons.wikimedia.org/wiki/File:Shadow_Puppet_Show_Ramayanam_Rama_Ravana_Yudham_MGU_KTYM_30.jpg
+License: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0
+Changes: Screen-plane quadrilateral crop and geometric straightening; resize only; no recoloring or generated content
+
+17.jpg: Tholpavakoothu, a folk art of Kerala 10 59 43 270000.jpeg
+Author: Shagil Muzhappilangad
+Source: https://commons.wikimedia.org/wiki/File:Tholpavakoothu,_a_folk_art_of_Kerala_10_59_43_270000.jpeg
+License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+Changes: Screen-plane quadrilateral crop and geometric straightening; resize only; no recoloring or generated content
+
+18.jpg: Tholpavakoothu Ramayanam Rama Ravana Yudham 20.jpg
+Author: Tonynirappathu
+Source: https://commons.wikimedia.org/wiki/File:Tholpavakoothu_Ramayanam_Rama_Ravana_Yudham_20.jpg
+License: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0
+Changes: Screen-plane quadrilateral crop and geometric straightening; resize only; no recoloring or generated content
+
+19.jpg: Tholpavakoothu Ramayanam Rama Ravana Yudham 30.jpg
+Author: Tonynirappathu
+Source: https://commons.wikimedia.org/wiki/File:Tholpavakoothu_Ramayanam_Rama_Ravana_Yudham_30.jpg
+License: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0
+Changes: Screen-plane quadrilateral crop and geometric straightening; resize only; no recoloring or generated content
+
+20.jpg: Tholpavakoothu, a folk art of Kerala 10 57 34 982000.jpeg
+Author: Shagil Muzhappilangad
+Source: https://commons.wikimedia.org/wiki/File:Tholpavakoothu,_a_folk_art_of_Kerala_10_57_34_982000.jpeg
+License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+Changes: Screen-plane quadrilateral crop and geometric straightening; resize only; no recoloring or generated content

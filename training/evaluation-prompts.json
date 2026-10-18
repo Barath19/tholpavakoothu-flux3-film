@@ -1,0 +1,31 @@
+{
+  "expansion_method": "Prepared by Codex using BFL's published t2i expansion instructions. Freeze these full captions before rendering either member of each pair.",
+  "system_prompt_source": "https://huggingface.co/black-forest-labs/flux-3-image-klein-pup/raw/main/system_prompts.json",
+  "cases": [
+    {
+      "id": "girl-and-bird",
+      "seed": 1703,
+      "request": "A young girl holds a tiny bird beneath a tree, in the Kerala leather shadow-puppet performance look, thlpvk style.",
+      "expanded": "Audience-side photograph of a Kerala leather shadow-puppet performance in thlpvk style. A young girl stands left of center beneath a spreading tree, holding a tiny bird on her outstretched right hand. The girl is a flat articulated leather figure with a long braid, a plain ankle-length skirt and a short-sleeved blouse, her face turned toward the bird. The bird is small enough to fit on her palm, with one pointed beak and its wings folded against its body. On the right, the tree rises from the lower edge and spreads its perforated branches above the girl. Dense dark silhouettes and small openings in the leather appear against a continuous cotton screen illuminated from behind by uneven amber lamp light. The camera faces the screen directly, framing the full girl, bird and tree with open screen space between their contours. Fine control rods descend from the girl's hands toward the lower edge."
+    },
+    {
+      "id": "fisherman-and-boat",
+      "seed": 1711,
+      "request": "An elderly fisherman pulls a small boat onto a riverbank, Kerala shadow-puppet performance, thlpvk style.",
+      "expanded": "Audience-side photograph of a Kerala leather shadow-puppet performance in thlpvk style. An elderly fisherman stands on the left and pulls a rope attached to a small boat on the right. The fisherman is a flat articulated leather figure with a short beard, a tied cloth around his head and a knee-length wrapped garment. His knees bend and both hands grip the rope, which stretches diagonally downward toward the bow. The boat is narrow, with a curved prow and a fishing basket resting inside. Two low bands of cut leather represent the river along the bottom, while a tuft of reeds marks the bank beside the fisherman's feet. Small punched openings articulate the garments and basket against an amber cotton screen. Uneven light from behind the cloth creates a brighter area behind the boat and a dimmer glow near the frame edges. The camera faces the screen directly and includes the fisherman's full figure, the entire rope and the boat."
+    },
+    {
+      "id": "deer-and-tiger",
+      "seed": 1702,
+      "request": "A deer and tiger face each other across a stream beneath a tree, Kerala shadow-puppet performance, thlpvk style.",
+      "expanded": "Audience-side photograph of a Kerala leather shadow-puppet performance in thlpvk style. A deer stands at frame-left and a tiger stands at frame-right, facing each other across a narrow stream. The deer has slender legs, upright ears and branching antlers, with its head raised toward the tiger. The tiger has a broad chest, an open mouth and a curved tail that rises behind its body. Their four feet remain visible above a low strip of ground. Between them, two winding bands of leather form the stream, leaving a clear gap between the animals. A perforated tree grows behind the tiger and arches over the upper right corner. The figures remain flat against the screen, with fine punched openings in their bodies and thin rods descending from their torsos. Uneven amber light shines through the woven cotton screen from behind. The camera looks straight at the performance surface and holds both animals at the same scale."
+    },
+    {
+      "id": "royal-figures",
+      "seed": 1721,
+      "request": "Two royal figures meet on an empty stage in the Tholpavakoothu leather shadow-puppet style, thlpvk style. The left figure raises an open palm; the right holds a staff.",
+      "expanded": "A front-facing audience photograph of a Kerala Tholpavakoothu leather shadow-puppet performance in thlpvk style. Two royal figures face each other across a clear space on a backlit cotton screen. The figure on the left raises one open palm toward the other figure, while the figure on the right holds a narrow staff vertically beside the body. Both figures are flat articulated leather puppets in profile, with tall layered crowns, long curved noses, broad decorated shoulder pieces and wrapped garments. Dense rows of tiny punched dots, curved bands and small floral openings cover the crowns, shoulders and clothing. The leather appears deep brown and reddish amber in the thinner areas, with overlapping dark shapes at the jointed arms. Oil lamps behind the screen create an uneven orange glow, soft shadow edges and several small bright patches near the lower part of the cloth. The full figures stand on a narrow dark strip along the bottom. The camera looks straight at the screen and leaves open illuminated cloth between and above the figures.",
+      "purpose": "Additional reference-fidelity test; not a chosen film story."
+    }
+  ]
+}

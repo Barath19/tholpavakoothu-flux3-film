@@ -1,0 +1,6 @@
+JATAYU — APPROXIMATELY 25-SECOND SUBMISSION INTRO
+
+Hi, I’m Barath. My project brings Kerala’s Tholpavakoothu shadow-puppet tradition into AI filmmaking. I trained a FLUX LoRA on credited performance photographs, used it to generate the storyboard, and animated the scenes with FLUX Video. This is Jatayu’s last stand, with original music, sound effects and subtitles. Here’s the film.
+
+Then play jatayu-the-last-flight.mp4 (90 seconds).
+Total recording length: approximately 1 minute 55 seconds.

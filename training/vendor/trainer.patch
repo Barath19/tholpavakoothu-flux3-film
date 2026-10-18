@@ -1,0 +1,87 @@
+--- upstream/train_flux3.py
++++ training/train_flux3.py
+@@ -340,10 +340,13 @@
+         args.pretrained_model_name_or_path, subfolder="text_encoder", revision=args.revision, torch_dtype=weight_dtype
+     )
+     tokenizer = AutoProcessor.from_pretrained(
+-        args.pretrained_model_name_or_path, subfolder="tokenizer", revision=args.revision
++        args.pretrained_model_name_or_path, subfolder="text_encoder", revision=args.revision
+     )
+     scheduler = FlowMatchEulerDiscreteScheduler(shift=FLOW_SHIFT, use_dynamic_shifting=False)
+-    pipeline = Flux3AutoBlocks().init_pipeline()
++    blocks = Flux3AutoBlocks()
++    # Prompts are already expanded and frozen for reproducible comparisons.
++    blocks.sub_blocks.pop("prompt_upsampler")
++    pipeline = blocks.init_pipeline()
+     pipeline.update_components(
+         transformer=transformer, vae=vae, text_encoder=text_encoder, tokenizer=tokenizer, scheduler=scheduler
+     )
+@@ -929,11 +932,12 @@
+             # Downloading and loading a dataset from the hub.
+             # See more about loading custom images at
+             # https://huggingface.co/docs/datasets/v2.0.0/en/dataset_script
+-            dataset = load_dataset(
+-                args.dataset_name,
+-                args.dataset_config_name,
+-                cache_dir=args.cache_dir,
+-            )
++            if os.path.isdir(args.dataset_name):
++                dataset = load_dataset("imagefolder", data_dir=args.dataset_name, cache_dir=args.cache_dir)
++            else:
++                dataset = load_dataset(
++                    args.dataset_name, args.dataset_config_name, cache_dir=args.cache_dir,
++                )
+             # Preprocessing the datasets.
+             column_names = dataset["train"].column_names
+ 
+@@ -1281,7 +1285,7 @@
+     # Load the tokenizers
+     tokenizer = AutoProcessor.from_pretrained(
+         args.pretrained_model_name_or_path,
+-        subfolder="tokenizer",
++        subfolder="text_encoder",
+         revision=args.revision,
+     )
+ 
+@@ -1689,7 +1693,8 @@
+             "negative_prompt": "",
+             "height": args.resolution,
+             "width": args.resolution,
+-            "num_inference_steps": 28,
++            "num_inference_steps": 50,
++            "guidance_scale": 3.5,
+             # Encode the validation prompt exactly as training did (same window cap and hidden layers), so the
+             # modular pipeline's text embeddings match the ones the adapter was trained against.
+             "max_sequence_length": args.max_sequence_length,
+@@ -2088,6 +2093,22 @@
+                         save_path = os.path.join(args.output_dir, f"checkpoint-{global_step}")
+                         accelerator.save_state(save_path)
+                         logger.info(f"Saved state to {save_path}")
++                        if args.validation_prompt is not None:
++                            transformer_ = unwrap_model(transformer)
++                            transformer_.eval()
++                            pipeline = make_validation_pipeline(args, transformer_, weight_dtype, accelerator.device)
++                            samples = log_validation(
++                                pipeline, args, accelerator, validation_pipeline_args,
++                                global_step, weight_dtype,
++                            )
++                            sample_dir = os.path.join(args.output_dir, "samples", f"step-{global_step:04d}")
++                            os.makedirs(sample_dir, exist_ok=True)
++                            for sample_number, sample in enumerate(samples):
++                                sample.save(os.path.join(sample_dir, f"sample-{sample_number:02d}.png"))
++                            del pipeline
++                            transformer_.train()
++                            free_memory()
++
+ 
+             logs = {"loss": loss.detach().item(), "lr": lr_scheduler.get_last_lr()[0]}
+             progress_bar.set_postfix(**logs)
+@@ -2097,7 +2118,7 @@
+                 break
+ 
+         if accelerator.is_main_process:
+-            if args.validation_prompt is not None and epoch % args.validation_epochs == 0:
++            if False:  # Validation runs at saved optimizer steps above, not epoch boundaries.
+                 transformer_ = unwrap_model(transformer)
+                 transformer_.eval()
+                 pipeline = make_validation_pipeline(args, transformer_, weight_dtype, accelerator.device)
