@@ -2,9 +2,11 @@
 
 A 90-second Ramayana story in Kerala’s Tholpavakoothu shadow-puppet style, with original music, sound effects and English subtitles.
 
-**[Watch the film](https://huggingface.co/Barath/tholpavakoothu-flux3-lora/resolve/main/films/jatayu/jatayu-the-last-flight.mp4)** · **[LoRA on Hugging Face](https://huggingface.co/Barath/tholpavakoothu-flux3-lora)**
+**[Watch the film](https://huggingface.co/nebius-build-week/jatayu-tholpavakoothu-flux3-lora/resolve/main/films/jatayu/jatayu-the-last-flight.mp4)** · **[LoRA & Community Award](https://huggingface.co/nebius-build-week/jatayu-tholpavakoothu-flux3-lora)**
 
-[Clean film](https://huggingface.co/Barath/tholpavakoothu-flux3-lora/resolve/main/films/jatayu/jatayu-the-last-flight-clean.mp4) · [Subtitles](films/jatayu/narration.srt) · [Storyboard](films/jatayu/storyboard.jpg) · [Film credits](films/jatayu/FILM-CREDITS.txt)
+Support the Community Award entry with a ❤️ on Hugging Face.
+
+[Clean film](https://huggingface.co/nebius-build-week/jatayu-tholpavakoothu-flux3-lora/resolve/main/films/jatayu/jatayu-the-last-flight-clean.mp4) · [Subtitles](films/jatayu/narration.srt) · [Storyboard](films/jatayu/storyboard.jpg) · [Film credits](films/jatayu/FILM-CREDITS.txt)
 
 **Style:** Kerala leather shadow-puppet performance: dark cutouts, perforations and warm cloth backlighting.<br>
 **Data:** 20 credited Wikimedia Commons photographs: 17 CC BY-SA 4.0 and 3 CC BY 4.0. [Sources and credits](CREDITS.txt).<br>
@@ -12,7 +14,7 @@ A 90-second Ramayana story in Kerala’s Tholpavakoothu shadow-puppet style, wit
 
 ## Six training images
 
-[Full dataset](https://huggingface.co/Barath/tholpavakoothu-flux3-lora/resolve/main/tholpavakoothu-dataset.zip) · [Image sources and preparation](training-examples/sources.json)
+[Full dataset](https://huggingface.co/nebius-build-week/jatayu-tholpavakoothu-flux3-lora/resolve/main/tholpavakoothu-dataset.zip) · [Image sources and preparation](training-examples/sources.json)
 
 | 01 | 06 | 11 |
 |---|---|---|
